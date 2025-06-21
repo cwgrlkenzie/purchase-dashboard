@@ -7,7 +7,7 @@ import os
 import feedparser
 
 # --- CONFIG ---
-st.set_page_config(page_title="🕶️ Matrix Data Hub", layout="wide", page_icon="📂")
+st.set_page_config(page_title="RKH Quotation Database", layout="wide", page_icon="RKH")
 
 # --- LOGO AND STYLE ---
 st.markdown("""
@@ -18,7 +18,7 @@ body {
 .stApp {
     background-color: #000000;
     color: #00FF41;
-    font-family: 'Courier New', monospace;
+    font-family: 'Onest', monospace;
 }
 h1, h2, h3, h4, h5, h6 {
     color: #00FF41;
@@ -79,9 +79,9 @@ if uploaded_file:
 st.markdown("---")
 
 # --- CONSTRUCTION NEWS ---
-st.markdown("## 📰 Latest Construction Industry News")
+st.markdown("## Latest Construction Industry News")
 
-RSS_FEED = "https://www.constructiondive.com/rss/"  # Use a reputable industry RSS feed
+RSS_FEED = "https://construction-today.com/"  # Use a reputable industry RSS feed
 feed = feedparser.parse(RSS_FEED)
 
 if feed.entries:
