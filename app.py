@@ -91,7 +91,7 @@ if feed.entries:
         st.markdown(entry.summary[:200] + "...")
         st.markdown("---")
 else:
-    st.info("Could not fetch news. Please check RSS source.")
+    st.info("https://construction-today.com/")
 
 # --- FOOTER ---
 st.markdown("---")
