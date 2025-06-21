@@ -8,6 +8,28 @@ import feedparser
 
 # --- CONFIG ---
 st.set_page_config(page_title="RKH", layout="wide", page_icon="RKH")
+# --- MATRIX STYLE WELCOME MESSAGE ---
+st.markdown("""
+<style>
+@keyframes matrixFade {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+.welcome {
+    color: #00FF41;
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    animation: matrixFade 2s ease-in-out forwards;
+}
+</style>
+
+<div class="welcome">
+    WELCOME BACK, USER
+</div>
+""", unsafe_allow_html=True)
 
 # --- LOGO AND STYLE ---
 st.markdown("""
