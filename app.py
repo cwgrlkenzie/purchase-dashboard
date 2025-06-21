@@ -18,10 +18,10 @@ body {
 .stApp {
     background-color: #000000;
     color: #00FF41;
-    font-family: 'Onest', monospace;
+    font-family: 'Inter', proportional font;
 }
 h1, h2, h3, h4, h5, h6 {
-    color: #00FF41;
+    color: #ffffff;
 }
 .uploadedFile {
     color: white;
