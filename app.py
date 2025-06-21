@@ -7,7 +7,7 @@ import os
 import feedparser
 
 # --- CONFIG ---
-st.set_page_config(page_title="RKH Quotation Database", layout="wide", page_icon="RKH")
+st.set_page_config(page_title="RKH", layout="wide", page_icon="RKH")
 
 # --- LOGO AND STYLE ---
 st.markdown("""
@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 """, unsafe_allow_html=True)
 
 # --- HEADER ---
-st.markdown("## 🕶️ Matrix Data Hub")
+st.markdown("## RKH Database")
 
 col1, col2 = st.columns([0.1, 0.9])
 with col1:
