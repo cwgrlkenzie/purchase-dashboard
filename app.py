@@ -18,7 +18,7 @@ st.markdown("""
 .welcome {
     color: #00FF41;
     font-family: 'Courier New', monospace;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
     text-align: center;
     margin-top: 30px;
@@ -27,7 +27,7 @@ st.markdown("""
 </style>
 
 <div class="welcome">
-    WELCOME BACK, USER
+    WELCOME BACK, BOSS!
 </div>
 """, unsafe_allow_html=True)
 
